@@ -1,0 +1,53 @@
+input{
+    border-left: 50px;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 20%;
+
+  }
+
+
+.ip{
+  
+  background-color:#E6E0DC;
+  width: 212px !important;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 0 !important;
+  color: black;
+  border-color: black;
+  box-shadow: black;
+
+}
+
+.btn-ac{
+  width: 104px !important;
+  border-radius: 10% !important;
+}
+
+.btn-dlt{
+  width: 104px !important;
+  border-radius: 10% !important;
+}
+
+input:hover{
+  background-color: #E6E0DC;
+  color: black;
+  border-color: black;
+  border-width: 2px;
+
+}
+
+.table{
+
+  margin-top: 50px;
+  background-color: #F0E7E1;
+  width: 220px;
+  height: 400px;
+  padding: 20px;
+
+  }
