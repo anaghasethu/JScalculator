@@ -12,7 +12,7 @@ input{
 
 
 .ip{
-  
+
   background-color:#E6E0DC;
   width: 212px !important;
   height: 50px;
@@ -21,18 +21,29 @@ input{
   color: black;
   border-color: black;
   box-shadow: black;
-
+  font-size: 300%;
+  text-align: right;
 }
 
-.btn-ac{
+.btn-e{
   width: 104px !important;
   border-radius: 10% !important;
+}
+
+input:hover.btn-e{
+  background-color: green !important;
+  border: none !important
 }
 
 .btn-dlt{
   width: 104px !important;
   border-radius: 10% !important;
 }
+input:hover.btn-dlt{
+  background-color: #FA3308  !important;
+  border: none !important
+}
+
 
 input:hover{
   background-color: #E6E0DC;
@@ -43,9 +54,9 @@ input:hover{
 }
 
 .table{
-
+  margin: auto;
   margin-top: 50px;
-  background-color: #F0E7E1;
+  background-color:#DCDCDC;
   width: 220px;
   height: 400px;
   padding: 20px;
